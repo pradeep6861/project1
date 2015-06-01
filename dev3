@@ -1,1 +1,16 @@
-from master 
+from master
+$ git branch -d remotes/origin/bugfix
+error: branch 'remotes/origin/bugfix' not found.
+
+$ git branch -d origin/bugfix
+error: branch 'origin/bugfix' not found.
+
+$ git branch -rd origin/bugfix
+Deleted remote branch origin/bugfix (was 2a14ef7).
+
+$ git push
+Everything up-to-date
+
+$ git pull
+From github.com:gituser/gitproject
+* [new branch] bugfix -> origin/bugfix 
