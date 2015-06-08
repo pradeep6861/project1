@@ -14,3 +14,4 @@ Everything up-to-date
 $ git pull
 From github.com:gituser/gitproject
 * [new branch] bugfix -> origin/bugfix 
+tag test with amend
